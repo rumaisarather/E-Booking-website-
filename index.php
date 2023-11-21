@@ -137,7 +137,7 @@ if(isset($_POST['send'])){
       <div class="swiper-wrapper">
 
          <div class="box swiper-slide">
-            <img src="images/room.jpg" alt="">
+            <img src="./images/room.jpg" alt="">
             <div class="flex">
                <h3>luxurious rooms</h3>
                <a href="#availability" class="btn">check availability</a>
@@ -145,7 +145,7 @@ if(isset($_POST['send'])){
          </div>
 
          <div class="box swiper-slide">
-            <img src="images/foody.jpg" alt="">
+            <img src="./images/foody.jpg" alt="">
             <div class="flex">
                <h3>foods and drinks</h3>
                <a href="#reservation" class="btn">make a reservation</a>
@@ -153,7 +153,7 @@ if(isset($_POST['send'])){
          </div>
 
          <div class="box swiper-slide">
-            <img src="images/hall.jpg" alt="">
+            <img src="./images/hall.jpg" alt="">
             <div class="flex">
                <h3>luxurious halls</h3>
                <a href="#contact" class="btn">contact us</a>
@@ -233,7 +233,7 @@ if(isset($_POST['send'])){
 
    <div class="row">
       <div class="image">
-         <img src="images/staff.jpg" alt="">
+         <img src="./images/staff.jpg" alt="">
       </div>
       <div class="content">
          <h3>best staff</h3>
@@ -244,7 +244,7 @@ if(isset($_POST['send'])){
 
    <div class="row revers">
       <div class="image">
-         <img src="images/dinning.jpg" alt="">
+         <img src="./images/dinning.jpg" alt="">
       </div>
       <div class="content">
          <h3>best foods</h3>
@@ -255,7 +255,7 @@ if(isset($_POST['send'])){
 
    <div class="row">
       <div class="image">
-         <img src="images/room3.png" alt="">
+         <img src="./images/room3.png" alt="">
       </div>
       <div class="content">
          <h3>swimming pool</h3>
@@ -275,37 +275,37 @@ if(isset($_POST['send'])){
    <div class="box-container">
 
       <div class="box">
-         <img src="images/foody.jpg" alt="">
+         <img src="./images/foody.jpg" alt="">
          <h3>food & drinks</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
       </div>
 
       <div class="box">
-         <img src="images/dinning.jpg" alt="">
+         <img src="./images/dinning.jpg" alt="">
          <h3>outdoor dining</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
       </div>
 
       <div class="box">
-         <img src="images/beach.jpg" alt="">
+         <img src="./images/beach.jpg" alt="">
          <h3>beach view</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
       </div>
 
       <div class="box">
-         <img src="images/decor.jpg" alt="">
+         <img src="./images/decor.jpg" alt="">
          <h3>decorations</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
       </div>
 
       <div class="box">
-         <img src="images/room4.jpg" alt="">
+         <img src="./images/room4.jpg" alt="">
          <h3>swimming pool</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
       </div>
 
       <div class="box">
-         <img src="images/beach.jpg" alt="">
+         <img src="./images/beach.jpg" alt="">
          <h3>resort beach</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
       </div>
@@ -391,12 +391,12 @@ if(isset($_POST['send'])){
 
    <div class="swiper gallery-slider">
       <div class="swiper-wrapper">
-         <img src="images/gallery-img-1.jpg" class="swiper-slide" alt="">
-         <img src="images/gallery-img-2.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-3.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-4.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-5.webp" class="swiper-slide" alt="">
-         <img src="images/gallery-img-6.webp" class="swiper-slide" alt="">
+         <img src="./images/gallery-img-1.jpg" class="swiper-slide" alt="">
+         <img src="./images/gallery-img-2.webp" class="swiper-slide" alt="">
+         <img src="./images/gallery-img-3.webp" class="swiper-slide" alt="">
+         <img src="./images/gallery-img-4.webp" class="swiper-slide" alt="">
+         <img src="./images/gallery-img-5.webp" class="swiper-slide" alt="">
+         <img src="./images/gallery-img-6.webp" class="swiper-slide" alt="">
       </div>
       <div class="swiper-pagination"></div>
    </div>
@@ -458,12 +458,12 @@ if(isset($_POST['send'])){
 
       <div class="swiper-wrapper">
          <div class="swiper-slide box">
-            <img src="images/pic-1.png" alt="">
+            <img src="./images/pic-1.png" alt="">
             <h3>john deo</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
          </div>
          <div class="swiper-slide box">
-            <img src="images/pic-2.png" alt="">
+            <img src="./images/pic-2.png" alt="">
             <h3>john deo</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
          </div>
