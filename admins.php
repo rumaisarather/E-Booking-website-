@@ -1,6 +1,6 @@
 <?php
 
-include '../components/connect.php';
+include 'connect.php';
 
 if(isset($_COOKIE['admin_id'])){
    $admin_id = $_COOKIE['admin_id'];
@@ -41,13 +41,13 @@ if(isset($_POST['delete'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/admin_style.css">
+   <link rel="stylesheet" href="admin_style.css">
 
 </head>
 <body>
    
 <!-- header section starts  -->
-<?php include '../components/admin_header.php'; ?>
+<?php include 'admin_header.php'; ?>
 <!-- header section ends -->
 
 <!-- admins section starts  -->
