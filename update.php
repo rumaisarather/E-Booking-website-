@@ -1,6 +1,6 @@
 <?php
 
-include '../components/connect.php';
+include 'connect.php';
 
 if(isset($_COOKIE['admin_id'])){
    $admin_id = $_COOKIE['admin_id'];
@@ -77,7 +77,7 @@ if(isset($_POST['submit'])){
 <body>
    
 <!-- header section starts  -->
-<?php include '../components/admin_header.php'; ?>
+<?php include 'admin_header.php'; ?>
 <!-- header section ends -->
 
 <!-- update section starts  -->
