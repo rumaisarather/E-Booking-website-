@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'connect.php';
 
 if(isset($_COOKIE['user_id'])){
    $user_id = $_COOKIE['user_id'];
@@ -121,12 +121,12 @@ if(isset($_POST['send'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-<?php include 'components/user_header.php'; ?>
+<?php include 'user_header.php'; ?>
 
 <!-- home section starts  -->
 
@@ -467,12 +467,7 @@ if(isset($_POST['send'])){
             <h3>john deo</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
          </div>
-         <div class="swiper-slide box">
-            <img src="images/pic-3.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis optio dignissimos eaque aliquid explicabo.</p>
-         </div>  
-      </div>
+          
 
       <div class="swiper-pagination"></div>
    </div>
@@ -485,7 +480,7 @@ if(isset($_POST['send'])){
 
 
 
-<?php include 'components/footer.php'; ?>
+<?php include 'footer.php'; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
@@ -494,7 +489,7 @@ if(isset($_POST['send'])){
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
-<?php include 'components/message.php'; ?>
+<?php include 'message.php'; ?>
 
 </body>
 </html>
