@@ -11,7 +11,7 @@
          <a href="messages.php">messages</a>
          <a href="register.php">register</a>
          <a href="login.php">login</a>
-         <a href="../components/admin_logout.php" onclick="return confirm('logout from this website?');">logout</a>
+         <a href="admin_logout.php" onclick="return confirm('logout from this website?');">logout</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
